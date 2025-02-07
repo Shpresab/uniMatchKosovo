@@ -1,0 +1,225 @@
+<!DOCTYPE html> <html lang="en">
+   <head> 
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Universitetet Publike - Kosovë</title> 
+    <link rel="icon" href="imagesUniPublike\Logo.png" type="image/x-icon" /> 
+    <link rel="stylesheet" href="style1.css" /> 
+    <link rel="stylesheet" href="stylePopUp.css"/> 
+    <script src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous" ></script> 
+  </head> 
+  <body> 
+    <header> 
+      <nav> 
+        <h1 style="color:rgb(29, 86, 69); display:flex; align-items:center;"> <span>
+</span>
+<a class="unimatch" href="index.html">UniMatchKosovo</a>
+</h1>
+<ul>
+<a href="indexPrivate.html">
+  <li style="font-family: var(--italic-font);
+  margin-left: 20px;
+  font-size: 23px;">Kolegjet Private</li>
+</a>
+</ul>
+</nav>
+</header>
+<main>
+<section id="hero">
+<div class="hero_content">
+      <h1 class="main-title">Universitetet Publike në Kosovë</h1>
+</div>
+<div class="hero_image">
+
+</div>
+</section>
+<div class="card_container1">
+<input id="searchInput" class="Searchinput2" type="text" placeholder="Kërko: Universitetin, fakultetin apo programin">
+<button class="tweetbutton" onclick="searchFunction()">Kërko</button>
+</div>
+<div id="collegeContainerPublike" class="container"></div>
+<div id="collegeContainer" class="container">
+<div class="fakulteti">
+<div class="header">
+  <img class="foto1" src="imagesUniPublike\uniPr.png">
+  <h3> Universiteti "Hasan Prishtina"</h3>
+</div>    
+<div class="informata">
+  <p style="margin-top: 20px;">Adresa:<br>Rr. "George Bush", Nr.31, 10000 Prishtine, Republika e Kosovës</p>
+  <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+383 38 244183 / 244186</span>
+      <br>Email:<span style="margin-left: 131px;">rektorati@uni-pr.edu</span></p>
+</div>
+<div class="footer">
+  <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+  <div class="butonat">
+    <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexPrishtine.html">Shfleto programet</a>      
+  </div>
+</div>
+</div>
+
+<div class="fakulteti">
+<div class="header">
+  <img class="foto1" src="imagesUniPublike\UniGjilan1.png">
+  <h3> Universiteti "Kadri Zeka"</h3>
+</div>    
+<div class="informata">
+  <p style="margin-top: 20px;">Adresa:<br>rr.”Zija Shemsiu” pn. 60000 Gjilan, Republika e Kosovës</p>
+  <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+383 280-390-112</span>
+      <br>Email:<span style="margin-left: 131px;">info@uni-gjilan.net</span></p>
+</div>
+<div class="footer">
+  <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+  <div class="butonat">
+    <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexGjilan.html">Shfleto programet</a>      
+  </div>
+</div>
+</div>
+
+<div class="fakulteti">
+<div class="header">
+  <img class="foto1" src="imagesUniPublike\IsaBoletiniMitrovice.png">
+  <h3> Universiteti "Isa Boletini"</h3>
+</div>    
+<div class="informata">
+  <p style="margin-top: 20px;">Adresa:<br>Rr. Ukshin Kovaçica, 40000 Mitrovicë, Republika e Kosovës</p>
+  <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+383 28 515 516</span>
+      <br>Email:<span style="margin-left: 131px;">info@umib.net</span></p>
+</div>
+<div class="footer">
+  <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+  <div class="butonat">
+    <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexMitrovice.html">Shfleto programet</a>      
+  </div>
+</div>
+</div>
+
+<div class="fakulteti">
+<div class="header">
+  <img class="foto1" src="imagesUniPublike\Gjakovee.png">
+  <h3> Universiteti "Fehmi Agani"</h3>
+</div>    
+<div class="informata">
+  <p style="margin-top: 20px;">Adresa:<br>Rr. "Ismail Qemali", n.n., 50 000 Gjakovë, Republika e Kosovës</p>
+  <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">038 200 20 831</span>
+      <br>Email:<span style="margin-left: 131px;">rektorati@uni-gjk.org</span></p>
+</div>
+<div class="footer">
+  <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+  <div class="butonat">
+    <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexGjakove.html">Shfleto programet</a>      
+  </div>
+</div>
+</div>
+
+<div class="fakulteti">
+<div class="header">
+  <img class="foto1" src="imagesUniPublike\HaxhiZeka.png">
+  <h3> Universiteti "Haxhi Zeka"</h3>
+</div>    
+<div class="informata">
+  <p style="margin-top: 20px;">Adresa:<br>Rr.“UÇK”-së 30000 Pejë Republika e Kosovës</p>
+  <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+ 383 (0)39 4232706</span>
+      <br>Email:<span style="margin-left: 131px;">info@unhz.eu</span></p>
+</div>
+<div class="footer">
+  <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+  <div class="butonat">
+    <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexPeje.html">Shfleto programet</a>      
+  </div>
+</div>
+</div>
+
+<div class="fakulteti">
+  <div class="header">
+      <img class="foto1" src="imagesUniPublike\shkencateaplikuaraferizaj.png">
+      <h3> Universiteti i Shkencave Të Aplikuara</h3>
+  </div>    
+  <div class="informata">
+    <p style="margin-top: 20px;">Adresa:<br>Rr. Rexhep Bislimi, 70000 Ferizaj, Republika e Kosovës</p>
+    <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+383(0) 290 310 010</span>
+        <br>Email:<span style="margin-left: 131px;">info@ushaf.net</span></p>
+</div>
+  <div class="footer">
+      <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+  <div class="butonat">
+    <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexShkencaTeAplikuara.html">Shfleto programet</a>      
+          </div>
+        </div>
+  </div>
+
+  <div class="fakulteti">
+    <div class="header">
+        <img class="foto1" src="imagesUniPublike\IBCM.png">
+        <h3>International Business College Mitrovica </h3>
+    </div>    
+    <div class="informata">
+      <p style="margin-top: 20px;">Adresa:<br>Rr. Bislim Bajgora pn, 40000 Mitrovicë,Republika e Kosovës</p>
+      <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+381 (0) 28 409 013</span>
+          <br>Email:<span style="margin-left: 0px;">info@ibcmitrovica.eu</span></p>
+  </div>
+    <div class="footer">
+        <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+    <div class="butonat">
+      <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexIBCM.html">Shfleto programet</a>      
+            </div>
+          </div>
+    </div>
+
+<div class="fakulteti">
+<div class="header">
+  <img class="foto1" src="imagesUniPublike\UkshinHoti.png">
+  <h3> Universiteti "Ukshin Hoti"</h3>
+</div>    
+<div class="informata">
+  <p style="margin-top: 20px;">Adresa:<br> Rruga e Shkronjave nr.1 20000 Prizren Republika e Kosovës</p>
+  <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+ 383 (0)29 233 890</span>
+      <br>Email:<span style="margin-left: 131px;">info@uni-prizren.com</span></p>
+</div>
+<div class="footer">
+  <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+  <div class="butonat">
+    <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexPrizren.html">Shfleto programet</a>      
+  </div>
+</div>
+</div>
+
+<div class="fakulteti">
+  <div class="header">
+      <img class="foto1" src="imagesUniPublike\SiguriPublike.png">
+      <h3>Akademia e Kosovës për Siguri Publike</h3>
+  </div>    
+  <div class="informata">
+    <p style="margin-top: 20px;">Adresa:<br>RXG7+HQP, Vushtrri 42000,<br>Republika e Kosovës</p>
+    <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+381 38 500162</span>
+        <br>Email:<span style="margin-left: 131px;">info.aksp@rks-gov.net</span></p>
+</div>
+  <div class="footer">
+      <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+  <div class="butonat">
+    <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexSiguriPublike.html">Shfleto programet</a>      
+          </div>
+        </div>
+  </div>
+
+  <div class="fakulteti">
+    <div class="header">
+        <img class="foto1" src="imagesUniPublike\studimeIslame.png">
+        <h3>Fakulteti i Studimeve Islame</h3>
+    </div>    
+    <div class="informata">
+      <p style="margin-top: 20px;">Adresa:<br>Rr. Bajram Kelmendi nr. 84, Prishtinë, 10000, Republika e Kosovës</p>
+      <p style="margin-bottom: 10px; margin-top: 10px;">Telefoni:<span style="margin-left: 32px;">+383 38 243887</span>
+          <br>Email:<span style="margin-left: 131px;">info@fsi-edu.net</span></p>
+  </div>
+    <div class="footer">
+        <p style="font-size: 15.5px;color:rgb(91, 91, 91); margin-bottom: 15px; font-weight: 400;">Shfleto të gjitha programet e Universitetit:</p>
+    <div class="butonat">
+      <a class="show-popup" style="padding-top: 6px; padding-bottom: 6px; font-weight: 500;" href="indexStudimeIslame.html">Shfleto programet</a>      
+            </div>
+          </div>
+    </div>
+</main> 
+<script src="scriptUniPublike.js"></script> 
+</body> 
+</html>
